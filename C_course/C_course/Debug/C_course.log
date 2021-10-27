@@ -1,0 +1,7 @@
+﻿  C_course.c
+C:\Users\mpalczew\source\repos\C_course\C_course\C_course.c(8,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\mpalczew\source\repos\C_course\C_course\C_course.c(40,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\mpalczew\source\repos\C_course\C_course\C_course.c(40,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\mpalczew\source\repos\C_course\C_course\C_course.c(40,13): message : the missing variadic argument 2 is required by format string '%19s'
+C:\Users\mpalczew\source\repos\C_course\C_course\C_course.c(40,13): message : this argument is used as a buffer size
+  C_course.vcxproj -> C:\Users\mpalczew\source\repos\C_course\Debug\C_course.exe
