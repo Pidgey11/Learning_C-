@@ -91,8 +91,8 @@ void learning_switch() {
 
 void learning_ternary() {
     int MaxNumber;
-    int number1;
-    int number2;
+    int number1 = 10;
+    int number2 = 5;
     MaxNumber = (number1 > number2) ?
         number1 : number2;
     /*przyklad instr warunkowej w której dla true 
@@ -100,6 +100,66 @@ void learning_ternary() {
      *druga
      */
     // i tym miłym akcentem kończymy na dzisiaj 24.10
+}
+
+void learning_loop() {
+    char str[] = "Mateusz is learning C.";
+    printf("%s \n", str);
+
+    int len = strlen(str);
+
+    for (int i = 0; i < len; i++)
+    {
+        putchar('-');
+    }
+    putchar('\n');
+}
+
+void loop_nested() {
+    for (int i = 1; i <= 10; i++)
+    {
+        for (int j = 1; j <= 10; j++) {
+            printf("%4d", (i * j));
+        }
+        putchar('\n');
+    }
+}
+
+void learning_while() {
+    char str[] = "Mateusz";
+
+    int len = 0;
+    while (str[len] != '\0') {
+        len++;
+    }
+
+    printf("String: %s \n", str);
+    printf("Length: %d chars \n", len);
+}
+
+void learning_do_while() {
+    char answer[10];
+    int i = 0;
+
+    do {
+        i++;
+        printf("Iteration #%d \n", i);
+
+        printf("Do you want to continue? [Enter NO to stop]");
+        scanf("%9s", answer);
+    } while (strcmp(answer, "NO") != 0);
+}
+
+float Celsius_from_Fahrenhait(float temperatureF) {
+    float temperatureC = (temperatureF - 32.0) * 5.0 / 9.0;
+
+    return temperatureC;
+} 
+
+void swap(int* a, int* b) {
+    int tmp = *a;
+    *a = *b;
+    *b = tmp;
 }
 
 int main(void)
@@ -110,6 +170,26 @@ int main(void)
     //learning_if();
     //learning_if2();
     //learning_switch();
+    //learning_loop();
+    //loop_nested();
+    //learning_while();
+    //learning_do_while();
+   
+    //Below are examples of function usage with printf commented to keep the command line clean
+    for (float tempF = 10.0;  tempF < 100.0; tempF += 5.0)
+    {
+        float tempC = Celsius_from_Fahrenhait(tempF);
+
+    //    printf(" %.1f F     |       %5.1f C \n", tempF, tempC);
+    }
+    
+    int x = 10;
+    int y = 20;
+
+    printf(" Starting values : \n x = %d; y = %d \n\n", x, y);
+    swap(&x, &y);
+    printf("Values after swap: \n x = %d, y = %d \n\n", x, y);
+
     return 0;
 }
 
