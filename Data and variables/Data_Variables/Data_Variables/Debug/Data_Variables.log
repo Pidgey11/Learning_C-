@@ -1,2 +1,4 @@
 ﻿  Source.c
+C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Data_Variables\Source.c(45,9): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 2 has type 'uint8_t *'
+C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Data_Variables\Source.c(45,9): message : consider using '%hhd' in the format string
   Data_Variables.vcxproj -> C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Debug\Data_Variables.exe
