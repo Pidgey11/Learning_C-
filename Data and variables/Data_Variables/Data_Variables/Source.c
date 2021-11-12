@@ -18,7 +18,7 @@ const char companyName[100] = "Singularsight";
 
 void readEmployees(struct  employee* employees, int nEmployees);
 void printEmplyees(struct employee employees[100], int nEmplyees);
-
+/*
 int main(void) {
 	struct employee employees[100];
 	int nEmployees;
@@ -34,7 +34,7 @@ int main(void) {
 
 	return 0;
 }
-
+*/
 void readEmployees(struct  employee* employees, int nEmployees) {
 	for (int i = 0; i < nEmployees; i++) {
 		printf("Processing employee %d \n", i + 1);
