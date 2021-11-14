@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Storage_class.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Storage_class_appendix.c">
+    <ClCompile Include="Operators.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
