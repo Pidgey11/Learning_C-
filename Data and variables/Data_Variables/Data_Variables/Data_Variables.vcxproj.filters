@@ -18,6 +18,12 @@
     <ClCompile Include="Source.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Storage_class.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage_class_appendix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Demo_Variables.c">
       <Filter>Source Files</Filter>
     </ClCompile>

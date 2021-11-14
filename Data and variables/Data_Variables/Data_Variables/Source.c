@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <string.h>
-
+/*
 struct employee {
 	uint8_t employeeNro;
 	char name[200];
@@ -35,6 +35,7 @@ int main(void) {
 	return 0;
 }
 */
+/*
 void readEmployees(struct  employee* employees, int nEmployees) {
 	for (int i = 0; i < nEmployees; i++) {
 		printf("Processing employee %d \n", i + 1);
@@ -62,13 +63,14 @@ void readEmployees(struct  employee* employees, int nEmployees) {
 			(currTime->tm_mon == dobObj.tm_mon && currTime->tm_mday < dobObj.tm_mday)){
 			employees[i].age--;
 	}
-	*/
+	
+
 		employees[i].dob = dobObj;
 
 	
 	}
 	}
-
+	/*
 void printEmplyees(struct employee employees[100], int nEmplyees) {
 	printf("\n");
 	setlocale(LC_ALL, "");
@@ -81,3 +83,4 @@ void printEmplyees(struct employee employees[100], int nEmplyees) {
 			emp.dob.tm_yday, emp.dob.tm_mon, emp.dob.tm_year+1900, emp.age);
 	}
 }
+*/

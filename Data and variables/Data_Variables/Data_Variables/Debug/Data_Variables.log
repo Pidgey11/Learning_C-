@@ -1,5 +1,3 @@
-﻿  Demo_Variables.c
-C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Data_Variables\Demo_Variables.c(5,22): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Data_Variables\Demo_Variables.c(9,23): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Data_Variables\Demo_Variables.c(13,20): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Data_Variables.vcxproj -> C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Debug\Data_Variables.exe
+﻿Storage_class_appendix.obj : error LNK2005: _printEmplyees already defined in Storage_class.obj
+Storage_class_appendix.obj : error LNK2005: _readEmployees already defined in Storage_class.obj
+C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Debug\Data_Variables.exe : fatal error LNK1169: one or more multiply defined symbols found

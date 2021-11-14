@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClCompile Include="Demo_Variables.c" />
     <ClCompile Include="Source.c" />
+    <ClCompile Include="Storage_class.c" />
+    <ClCompile Include="Storage_class_appendix.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -11,7 +11,7 @@ float higherRate = 0.2;
 float minimumMaxRateBand = 50000;
 float maximumMaxRateBand = 150000;
 float maxRate = 0.4;
-
+/*
 int main() {
 	float userSalary;
 	float taxRateApplied;
@@ -43,3 +43,4 @@ int main() {
 
 	return 0;
 }
+*/
