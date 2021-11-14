@@ -1,3 +1,4 @@
-﻿Storage_class_appendix.obj : error LNK2005: _printEmplyees already defined in Storage_class.obj
-Storage_class_appendix.obj : error LNK2005: _readEmployees already defined in Storage_class.obj
-C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Debug\Data_Variables.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  Storage_class.c
+C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Data_Variables\Storage_class.c(17,15): warning C4013: 'readEmployees' undefined; assuming extern returning int
+C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Data_Variables\Storage_class.c(18,15): warning C4013: 'printEmplyees' undefined; assuming extern returning int
+  Data_Variables.vcxproj -> C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Debug\Data_Variables.exe

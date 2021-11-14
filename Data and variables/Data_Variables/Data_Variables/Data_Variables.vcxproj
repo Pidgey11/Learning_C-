@@ -19,8 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Demo_Variables.c" />
-    <ClCompile Include="Source.c" />
     <ClCompile Include="Storage_class.c" />
     <ClCompile Include="Storage_class_appendix.c" />
   </ItemGroup>

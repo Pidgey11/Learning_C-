@@ -15,7 +15,7 @@ typedef struct{
 } employee;
 
 employee employeesArray[100];
-void readEmployees(int nEmployees) {
+extern void readEmployees(int nEmployees) {
 	employee* employees = employeesArray;
 
 	for (int i = 0; i < nEmployees; i++) {
@@ -43,7 +43,7 @@ void readEmployees(int nEmployees) {
 	}
 }
 
-void printEmplyees (int nEmplyees) {
+extern void printEmplyees (int nEmplyees) {
 	printf("\n");
 	setlocale(LC_ALL, "");
 	struct lconv* currenLocale = localeconv();
