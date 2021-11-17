@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Demo1.c">
+    <ClCompile Include="Demo2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers_2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

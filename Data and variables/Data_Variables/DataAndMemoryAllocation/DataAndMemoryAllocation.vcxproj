@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Demo1.c" />
+    <ClCompile Include="Demo2.c" />
+    <ClCompile Include="pointers.c" />
+    <ClCompile Include="pointers_2.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
