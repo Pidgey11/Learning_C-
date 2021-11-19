@@ -6,7 +6,7 @@ void print_int_by_value(int number);
 
 void malloc_int_dangerous(int* number_ptr);
 void malloc_int_safe(int** number_ptr);
-
+/*
 int main() {
 	int my_number = 10;
 
@@ -27,7 +27,7 @@ int main() {
 	printf("The above address of 'number_ptr' does not change!\n ");
 }
 
-
+*/
 void print_int_by_reference(int* number_ptr) {
 	printf("Printing int =>> address: %p Value= %d Done by reference\n", number_ptr, *number_ptr);
 }

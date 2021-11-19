@@ -24,5 +24,17 @@
     <ClCompile Include="pointers_2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pointer_arithmetic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="function_pointers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\managing_memory_with_pointers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="array1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

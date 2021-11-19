@@ -19,9 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Downloads\managing_memory_with_pointers.c" />
+    <ClCompile Include="array1.c" />
     <ClCompile Include="Demo2.c" />
+    <ClCompile Include="function_pointers.c" />
     <ClCompile Include="pointers.c" />
     <ClCompile Include="pointers_2.c" />
+    <ClCompile Include="pointer_arithmetic.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
