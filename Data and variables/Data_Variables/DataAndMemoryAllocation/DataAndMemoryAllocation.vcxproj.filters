@@ -36,5 +36,11 @@
     <ClCompile Include="array1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Arrays2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\dynamic_memory_management_with_arrays.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

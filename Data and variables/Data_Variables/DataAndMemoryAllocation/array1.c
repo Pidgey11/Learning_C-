@@ -8,7 +8,7 @@ typedef struct Person {
 	int age;
 	int id;
 } Person;
-
+/*
 int main(int argc, char* argv[]) {
 	int numbers[] = { 1,2,3,4 };
 	const double floats[] = { 1.23 , 1.45, 1.67, 1.89 };
@@ -29,3 +29,4 @@ int main(int argc, char* argv[]) {
 	printf("Starting address of 'numbers' array by array name: %p\n", numbers);
 	printf("Starting address of 'numbers' array by pointer to the first element: %p\n", &numbers[0]);
 }
+*/
