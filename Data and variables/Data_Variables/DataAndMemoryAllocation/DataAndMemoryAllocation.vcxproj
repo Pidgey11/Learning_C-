@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\dynamic_memory_management_with_arrays.c" />
     <ClCompile Include="..\..\..\..\..\Downloads\managing_memory_with_pointers.c" />
     <ClCompile Include="array1.c" />
     <ClCompile Include="Arrays2.c" />
@@ -28,6 +27,7 @@
     <ClCompile Include="pointers.c" />
     <ClCompile Include="pointers_2.c" />
     <ClCompile Include="pointer_arithmetic.c" />
+    <ClCompile Include="Structure1.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

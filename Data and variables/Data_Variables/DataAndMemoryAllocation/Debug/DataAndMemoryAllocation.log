@@ -1,4 +1,2 @@
-﻿  dynamic_memory_management_with_arrays.c
-C:\Users\mpalczew\Downloads\dynamic_memory_management_with_arrays.c : fatal error C1041: cannot open program database 'C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\DataAndMemoryAllocation\Debug\vc142.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
-  Arrays2.c
-  Generating Code...
+﻿  Structure1.c
+  DataAndMemoryAllocation.vcxproj -> C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Debug\DataAndMemoryAllocation.exe

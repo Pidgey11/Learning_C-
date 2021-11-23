@@ -13,34 +13,43 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Pointers">
+      <UniqueIdentifier>{d08cbebb-dad8-45ca-8a82-2edebad9480a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arrays">
+      <UniqueIdentifier>{740bf96e-8ee2-40e9-9a19-acd776b6176f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structures">
+      <UniqueIdentifier>{3e6e3ff2-d260-44f1-a7bf-4da061bef3d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Demo2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pointers.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pointers_2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pointer_arithmetic.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="function_pointers.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\managing_memory_with_pointers.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="array1.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Arrays</Filter>
     </ClCompile>
     <ClCompile Include="Arrays2.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Arrays</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\dynamic_memory_management_with_arrays.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Demo2.c">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="function_pointers.c">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\managing_memory_with_pointers.c">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_arithmetic.c">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers.c">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers_2.c">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure1.c">
+      <Filter>Source Files\Structures</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
