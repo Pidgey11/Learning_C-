@@ -1,2 +1,7 @@
-﻿  Structure1.c
-  DataAndMemoryAllocation.vcxproj -> C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Debug\DataAndMemoryAllocation.exe
+﻿  mem_pool_manager.c
+C:\Users\mpalczew\Downloads\mem_pool_manager.c(39,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mpalczew\Downloads\mem_pool_manager.c(121,104): warning C4133: '-': incompatible types - from 'void *' to 'char *'
+  dynamic_struct.c
+  Generating Code...
+mem_pool_manager_test.obj : error LNK2005: _send_metrics already defined in managing_memory_with_pointers.obj
+C:\Users\mpalczew\source\Learning_C\Data and variables\Data_Variables\Debug\DataAndMemoryAllocation.exe : fatal error LNK1169: one or more multiply defined symbols found

@@ -5,7 +5,7 @@ typedef struct Grade {
 	char letter;
 	int rank;
 }Grade;
-
+/*
 int main(int argc, char* arv[]) {
 	const Grade student_grade = { 'A', 96 };
 
@@ -44,3 +44,4 @@ int main(int argc, char* arv[]) {
 
     return 0;
 }
+*/

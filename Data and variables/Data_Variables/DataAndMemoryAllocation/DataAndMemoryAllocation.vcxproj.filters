@@ -51,5 +51,19 @@
     <ClCompile Include="Structure1.c">
       <Filter>Source Files\Structures</Filter>
     </ClCompile>
+    <ClCompile Include="dynamic_struct.c">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\mem_pool_manager.c">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\mem_pool_manager_test.c">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Downloads\mem_pool_manager.h">
+      <Filter>Source Files\Structures</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

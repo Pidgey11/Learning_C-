@@ -20,14 +20,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Downloads\managing_memory_with_pointers.c" />
+    <ClCompile Include="..\..\..\..\..\Downloads\mem_pool_manager.c" />
+    <ClCompile Include="..\..\..\..\..\Downloads\mem_pool_manager_test.c" />
     <ClCompile Include="array1.c" />
     <ClCompile Include="Arrays2.c" />
     <ClCompile Include="Demo2.c" />
+    <ClCompile Include="dynamic_struct.c" />
     <ClCompile Include="function_pointers.c" />
     <ClCompile Include="pointers.c" />
     <ClCompile Include="pointers_2.c" />
     <ClCompile Include="pointer_arithmetic.c" />
     <ClCompile Include="Structure1.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Downloads\mem_pool_manager.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
